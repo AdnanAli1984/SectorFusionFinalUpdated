@@ -1,0 +1,99 @@
+/* Save this as styles/main.qss */
+
+/* Main Window */
+QMainWindow {
+    background-color: #f1f5f9;
+}
+
+/* Title Bar */
+#titleBar {
+    background-color: white;
+    border-bottom: 1px solid #e2e8f0;
+    padding: 8px;
+    min-height: 60px;
+}
+
+#titleLabel {
+    color: #1e293b;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Button Grid */
+#buttonGrid {
+    background-color: transparent;
+    margin: 16px;
+}
+
+.ModernButton {
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+    min-width: 180px;
+    min-height: 120px;
+    text-align: center;
+}
+
+.ModernButton:hover {
+    opacity: 0.9;
+}
+
+.ModernButton QLabel {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Content Area */
+#contentArea {
+    background-color: white;
+    border-radius: 8px;
+    margin: 16px;
+    padding: 16px;
+    border: 1px solid #e2e8f0;
+}
+
+/* Window Controls */
+#windowControls QPushButton {
+    background-color: transparent;
+    border: none;
+    border-radius: 12px;
+    min-width: 24px;
+    min-height: 24px;
+    font-family: "Segoe UI";
+    font-size: 16px;
+    color: #64748b;
+}
+
+#windowControls QPushButton:hover {
+    background-color: #f1f5f9;
+}
+
+#closeButton:hover {
+    background-color: #ef4444;
+    color: white;
+}
+
+/* Scrollbars */
+QScrollBar:vertical {
+    border: none;
+    background-color: #f1f5f9;
+    width: 8px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #cbd5e1;
+    min-height: 30px;
+    border-radius: 4px;
+}
+
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+QScrollBar::add-page:vertical,
+QScrollBar::sub-page:vertical {
+    background: none;
+}
