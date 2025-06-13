@@ -1,0 +1,58 @@
+{
+    "sector_split": [
+        {
+            "Sector": "A",
+            "Parrent ID": "1",
+            "Child ID": "11",
+            "Layer": "L1800"
+        },
+        {
+            "Sector": "A",
+            "Parrent ID": "21",
+            "Child ID": "31",
+            "Layer": "L2100"
+        },
+        {
+            "Sector": "B",
+            "Parrent ID": "2",
+            "Child ID": "12",
+            "Layer": "L1800"
+        },
+        {
+            "Sector": "B",
+            "Parrent ID": "22",
+            "Child ID": "32",
+            "Layer": "L2100"
+        },
+        {
+            "Sector": "C",
+            "Parrent ID": "3",
+            "Child ID": "13",
+            "Layer": "L1800"
+        },
+        {
+            "Sector": "C",
+            "Parrent ID": "23",
+            "Child ID": "33",
+            "Layer": "L2100"
+        }
+    ],
+    "massive_mimo": [
+        {
+            "Sector": "C",
+            "Beam0": "79",
+            "Beam1": "80",
+            "Beam2": "81",
+            "Beam3": "82",
+            "Layer": "L1800"
+        },
+        {
+            "Sector": "C",
+            "Beam0": "99",
+            "Beam1": "100",
+            "Beam2": "101",
+            "Beam3": "102",
+            "Layer": "L2100"
+        }
+    ]
+}

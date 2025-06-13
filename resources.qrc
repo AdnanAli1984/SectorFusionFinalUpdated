@@ -1,0 +1,17 @@
+<!-- Save this as resources.qrc -->
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="icons">
+        <file>icons/upload.svg</file>
+        <file>icons/settings.svg</file>
+        <file>icons/map-pin.svg</file>
+        <file>icons/compass.svg</file>
+        <file>icons/git-commit.svg</file>
+        <file>icons/share-2.svg</file>
+        <file>icons/map.svg</file>
+        <file>icons/help-circle.svg</file>
+    </qresource>
+    <qresource prefix="styles">
+        <file>styles/main.qss</file>
+    </qresource>
+</RCC>
