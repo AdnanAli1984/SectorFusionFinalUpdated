@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <g transform="translate(10, 10)">
+    <!-- Complete outer circle -->
+    <circle
+      cx="40"
+      cy="40"
+      r="40"
+      fill="none"
+      stroke="#0088FF"
+      stroke-width="8"
+    />
+    
+    <!-- Inner blue filled circle -->
+    <circle
+      cx="40"
+      cy="40"
+      r="25"
+      fill="#0088FF"
+    />
+    
+    <!-- Short lines -->
+    <line
+      x1="10"
+      y1="10"
+      x2="0"
+      y2="0"
+      stroke="#0088FF"
+      stroke-width="8"
+      stroke-linecap="round"
+    />
+    
+    <line
+      x1="70"
+      y1="70"
+      x2="80"
+      y2="80"
+      stroke="#0088FF"
+      stroke-width="8"
+      stroke-linecap="round"
+    />
+  </g>
+</svg>
